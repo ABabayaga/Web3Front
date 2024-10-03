@@ -22,7 +22,12 @@ export default function Home() {
                             Donal Trump
                         </h3>
                         <img src="https://encurtador.com.br/X8sa9" className="d-block mx-auto img-fluid rounded" width={250} />
-                        <button className="btn btn-primary p-3 my-2 d-block mx-auto" style={{ width: 250 }}>Aposto nesse candidato</button>
+                        <button className="btn btn-primary p-3 my-2 d-block mx-auto " style={{ width: 250 }}>
+                            <img src="/poly.svg " width={45} />Aposto nesse candidato
+
+                        </button>
+
+
                         <span className=" badge text-bg-secondary d-block mx-auto" style={{ width: 250 }}>0 POL Apostado</span>
                     </div>
                     <div className="col">
@@ -30,7 +35,10 @@ export default function Home() {
                             Kamala
                         </h3>
                         <img src="https://encurtador.com.br/X8sa9" className="d-block mx-auto img-fluid rounded" width={250} />
-                        <button className="btn btn-primary p-3 my-2 d-block mx-auto" style={{ width: 250 }}>Aposto nesse candidato</button>
+                        <button className="btn btn-primary p-3 my-2 d-block mx-auto" style={{ width: 250 }}>
+                            <img src="/poly.svg " width={45} />Aposto nesse candidato
+
+                        </button>
                         <span className=" badge text-bg-secondary d-block mx-auto" style={{ width: 250 }}>0 POL Apostado</span>
                     </div>
                 </div>

@@ -12,6 +12,11 @@ export default function Home() {
   push("/bet");
   }
 
+
+  function btnAboutClick(){
+    push("/about");
+    }
+
   return (
     <>
       <Head>
@@ -20,6 +25,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className="container px-4 py-5">
+        <div>
+        <ul className="nav col-4 justify-content-end">
+            <li className="nav-item"><a href="/" className="nav-link px-2 text-body-secondary">Home</a></li>
+            <li className="nav-item"><a href="/about" className="nav-link px-2 text-body-secondary" onClick={btnAboutClick}>About</a></li>
+          </ul>
+        </div>
         <div className="row flex-lg-row-reverse aling-items-center g-5 py-5">
           <div className="col-6">
             <img src="https://encurtador.com.br/gqwQq" className="d-block mx-lg-auto img fluid" width="500" height="350" />
